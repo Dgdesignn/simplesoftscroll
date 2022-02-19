@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        
+        html{
+            scroll-behavior: smooth;
+        }
+        a{
+            text-decoration:none;
+        }
+        section {
+            color: #fff;
+            min-height: 100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+
+        #inicio{
+            background-color:#0d62ff;
+        }
+        #servicos{
+            background-color:#cc25ff;
+        }
+        #sobre{
+            background-color:#ff009d;
+        }
+        #contacto{
+            background-color:#ffa600;
+        }
+
+        ul{
+            list-style: none;
+            display:flex;
+            justify-content:center;
+            gap:10px;
+            padding:20px;
+
+            position: fixed;
+            right: 0;
+            left: 0;
+            background-color:#fff;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+          <a href="#inicio"> <li>Início</li> </a>
+          <a href="#servicos"><li>Serviços</li> </a>
+          <a href="#sobre"> <li>Sobre</li> </a>
+          <a href="#contacto"> <li>Contacto</li> </a>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Página inicial</h2>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+    </section>
+    <section id="contacto">
+        <h2>contacto</h2>
+    </section>
+</body>
+</html>
